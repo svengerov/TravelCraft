@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B58F353-30AF-4E4E-83AB-3BE7E31EF9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCraft.Core", "src\TravelCraft.Core\TravelCraft.Core.csproj", "{F310249D-D8B3-4C5F-8F24-06D28FE7E0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCraft.Agents", "src\TravelCraft.Agents\TravelCraft.Agents.csproj", "{B015C36E-0158-4730-964C-A38DF5B3A4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCraft.Tools", "src\TravelCraft.Tools\TravelCraft.Tools.csproj", "{B7AEF824-AF42-4877-A90F-4A24FD94FE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCraft.UI", "src\TravelCraft.UI\TravelCraft.UI.csproj", "{0289A70B-8D59-4616-87E2-D7C71074D6A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F310249D-D8B3-4C5F-8F24-06D28FE7E0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F310249D-D8B3-4C5F-8F24-06D28FE7E0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F310249D-D8B3-4C5F-8F24-06D28FE7E0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F310249D-D8B3-4C5F-8F24-06D28FE7E0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B015C36E-0158-4730-964C-A38DF5B3A4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B015C36E-0158-4730-964C-A38DF5B3A4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B015C36E-0158-4730-964C-A38DF5B3A4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B015C36E-0158-4730-964C-A38DF5B3A4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AEF824-AF42-4877-A90F-4A24FD94FE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AEF824-AF42-4877-A90F-4A24FD94FE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AEF824-AF42-4877-A90F-4A24FD94FE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AEF824-AF42-4877-A90F-4A24FD94FE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0289A70B-8D59-4616-87E2-D7C71074D6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0289A70B-8D59-4616-87E2-D7C71074D6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0289A70B-8D59-4616-87E2-D7C71074D6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0289A70B-8D59-4616-87E2-D7C71074D6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F310249D-D8B3-4C5F-8F24-06D28FE7E0BE} = {8B58F353-30AF-4E4E-83AB-3BE7E31EF9C1}
+		{B015C36E-0158-4730-964C-A38DF5B3A4E5} = {8B58F353-30AF-4E4E-83AB-3BE7E31EF9C1}
+		{B7AEF824-AF42-4877-A90F-4A24FD94FE90} = {8B58F353-30AF-4E4E-83AB-3BE7E31EF9C1}
+		{0289A70B-8D59-4616-87E2-D7C71074D6A7} = {8B58F353-30AF-4E4E-83AB-3BE7E31EF9C1}
+	EndGlobalSection
+EndGlobal
