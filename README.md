@@ -1,2 +1,43 @@
-# TravelCraft
-AI Custom Multi-Agent Travel Assistant
+# 🚀 TravelCraft AI
+
+**TravelCraft** — это автономная мультиагентная система на C# (.NET 9) для интеллектуального планирования и трекинга путешествий.
+
+Система распределяет задачи между специализированными AI-агентами (логистика, погода, трекинг, безопасность) и формирует персонализированные маршруты с учётом индивидуальных предпочтений пользователя.
+
+---
+
+## 🏗 Архитектура решения
+
+Решение структурировано по принципам модульной архитектуры и разделено на 4 проекта:
+
+* **`TravelCraft.Core`** — ядро системы: базовая доменная модель, абстракции агентов (`ICustomAgent`), интерфейсы инструментов (`IAgentTool`) и главный Оркестратор.
+* **`TravelCraft.Agents`** — специализированная логика AI-агентов (LogisticsAgent, WeatherAgent, SafetyAgent, TrekkingAgent и др.).
+* **`TravelCraft.Tools`** — внешние интеграции и плагины (веб-скрейпинг на Playwright, работа с базами данных, Email-нотификации, MCP-коннекторы).
+* **`TravelCraft.UI`** — пользовательский интерфейс и точка входа в приложение (консольный интерфейс / API).
+
+---
+
+## 🛠 Технологический стек
+
+* **Платформа:** .NET 9 / C#
+* **AI & Orchestration:** Microsoft.Extensions.AI
+* **Integrations & Scraping:** Playwright, EF Core, MailKit / MCP
+* **CI/CD:** GitHub Actions
+
+---
+
+## 🚀 Быстрый старт
+
+### Требования
+* [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+
+### Сборка и запуск
+```bash
+# Клонирование репозитория
+git clone <URL_РЕПОЗИТОРИЯ>
+
+# Сборка всего решения
+dotnet build
+
+# Запуск приложения
+dotnet run --project src/TravelCraft.UI
